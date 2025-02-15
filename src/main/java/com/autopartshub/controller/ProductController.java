@@ -1,6 +1,7 @@
-package com.autopartshub;
+package com.autopartshub.controller;
 
-import org.springframework.stereotype.Controller;
+import com.autopartshub.model.Product;
+import com.autopartshub.service.ProductService;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.List;

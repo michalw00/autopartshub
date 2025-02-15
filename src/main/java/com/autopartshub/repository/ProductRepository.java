@@ -1,6 +1,6 @@
-package com.autopartshub;
+package com.autopartshub.repository;
 
-import com.autopartshub.Product;
+import com.autopartshub.model.Product;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 

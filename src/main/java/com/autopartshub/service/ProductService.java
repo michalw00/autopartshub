@@ -1,5 +1,7 @@
-package com.autopartshub;
+package com.autopartshub.service;
 
+import com.autopartshub.model.Product;
+import com.autopartshub.repository.ProductRepository;
 import org.springframework.stereotype.Service;
 
 import java.util.List;

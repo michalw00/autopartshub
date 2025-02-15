@@ -1,4 +1,4 @@
-package com.autopartshub;
+package com.autopartshub.model;
 
 import jakarta.persistence.*;
 import lombok.*;
