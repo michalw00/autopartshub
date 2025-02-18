@@ -1,12 +1,12 @@
 package com.autopartshub.service;
 
 import com.autopartshub.model.Category;
-import com.autopartshub.model.Product;
 import com.autopartshub.repository.CategoryRepository;
-import com.autopartshub.repository.ProductRepository;
+import org.springframework.stereotype.Service;
 
 import java.util.List;
 
+@Service
 public class CategoryService {
 	private final CategoryRepository categoryRepository;
 
